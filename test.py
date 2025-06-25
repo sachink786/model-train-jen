@@ -17,7 +17,7 @@ mse =mean_squared_error(y_test,y_pred)
 print(f"Model MSE: {mse:.2f}")
 
 #Print predicted 
-results_df = pd.DateFrame({'Actual':y_tes,'Predicted':y_pred})
+results_df = pd.DataFrame({'Actual':y_tes,'Predicted':y_pred})
 print(results_df.head(20))
 print(f"\n ... displaying {len(results_df)} total samples.")
 
