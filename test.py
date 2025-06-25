@@ -6,7 +6,7 @@ from sklearn.datasets import load_diabetes
 
 #Load test data 
 X,y = load_diabetes(return_X_y=True)
-_,X_test,_,y_test=train_test_split(X,y,test_size=0.2)
+_,X_test,_,y_test=train_test_split(X,y,test_size=0.33)
 
 #load model 
 model=joblib.load("model.pkl")
